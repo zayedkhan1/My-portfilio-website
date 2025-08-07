@@ -43,14 +43,20 @@ import AlphaCue from './assets/company_logo/AlphaCueTech.jpg'
 import PersonalCompany from './assets/company_logo/zx logo.jpg'
 
 //Education Logo
-import Aiub from './assets/education_logo/aiub logo.png'
-
+import Aiub from './assets/education_logo/aiub logo.png';
+import phlogog from './assets/education_logo/phlogo.jpg';
 
 
 //Project Logo
-import ImgSerach from './assets/project_logo/image_search.png'
-import MovieSearch from './assets/project_logo/movie_rec.png'
-import Camm from './assets/project_logo/cm.png'
+
+import crypto from './assets/project_logo/crypto.png';
+import bookmark from './assets/project_logo/bookmark.png';
+import qcart from './assets/project_logo/qcart.png';
+import cryptodashboard from './assets/project_logo/cryptodashboard.png';
+import stellerai from './assets/project_logo/stellerai.png';
+import taskify from './assets/project_logo/taskify.png';  
+
+
 
 //Profile Logo
 import MainProfile from './assets/company_logo/Profile.jpeg'
@@ -192,54 +198,77 @@ export const education=[
     },
     {
       id: 1,
-      img: Aiub,
-      school: "American International University-Bangladesh (AIUB)",
+      img: phlogog,
+      school: "Programing Hero (P-H)",
       date: "2023- present",
-      grade: "80%",
-      desc: " On the way to completing my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      grade: "85%",
+      desc: "I have successfully completed the Programming Hero Level 1 Course, which laid a strong foundation in web development and programming fundamentals. Throughout the course, I gained hands-on experience in: HTML, CSS, and JavaScript: Building responsive websites and interactive UI components.Basic DOM Manipulation: Implementing user interactions dynamically. (Git & GitHub): Tracking code changes and collaborating effectively.Debugging & Problem Solving. Developing mini-projects that solidified my understanding of front-end development concepts.",
+      degree: "Complete Web Development Course(Lavel-1)",
     },
-    {
-      id: 2,
-      img: Aiub,
-      school: "American International University-Bangladesh (AIUB)",
-      date: "2023- present",
-      grade: "80%",
-      desc: " On the way to completing my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
-    },
-
+   
 ];
 
 export const projects=[
    {
     id: 0,
-    title: "Movie Recommendation App",
-    description:"A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    image: MovieSearch ,
+    title: "CryptoPulse-All in One Crypto Tracker",
+    description:"cprytoplus is a sleek and powerful cryptocurrency data tracker that provides real-time price updates, market trends, and insightful analytics. Stay ahead of the curve with live charts, historical data, and customizable watchlists — all in one intuitive dashboard.",
+    image: crypto,
     tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    // github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    // webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    github: "https://github.com/zayedkhan1/CryptoX-Application",
+    webapp: "https://cryptoplace-x.netlify.app/",
    },
    {
-    id: 1,
-    title: "Image Search App",
-    description:
-    "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-    image:ImgSerach ,
-    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-    // github: "https://github.com/codingmastr/Image-Search-App",
-    // webapp: "https://imagsearch.netlify.app/",
-   },
-   {
-      id: 2,
-      title: "Coding Master",
+      id: 1,
+      title: "Q Cart-An ecommerce Platform",
       description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: Camm,
+        "Qcart is a modern e-commerce platform designed to offer a seamless online shopping experience. Whether you're a small business or a large brand, ShopVerse helps you showcase your products, manage inventory, process secure payments, and grow your customer base — all from one powerful, user-friendly dashboard.",
+      image: qcart ,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
+      github: "https://github.com/zayedkhan1/QCart-application",
+      webapp: "https://qcart-ecommerce.netlify.app/",
     },
 
+   {
+    id: 2,
+    title: "Bookmarkr -A Bookmarking Solution",
+    description:
+    "Bookmark Manager is a simple yet powerful tool to save, organize, and manage your favorite website links. Add titles, URLs, and optional tags for quick filtering. Enjoy features like dark mode, local storage support, and easy editing or deleting of bookmarks — all in a clean and responsive interface designed for productivity.",
+    image:bookmark,
+    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
+    github: "https://github.com/zayedkhan1/BookmarkManager-application",
+    webapp: "https://managebookmak.netlify.app/login",
+   },
+   {
+    id: 3,
+    title: "CryptoDashboard -Personal Crypto tracker",
+    description:
+    "Crypto Dashboard is your all-in-one platform for tracking real-time cryptocurrency data with precision and ease. Monitor live prices, market trends, historical charts, and portfolio performance — all in a clean, responsive interface. With customizable watchlists, powerful analytics, and support for multiple coins and tokens, Crypto Dashboard empowers both casual investors and crypto enthusiasts to stay informed and make smarter decisions in a fast-moving market.",
+    image:cryptodashboard,
+    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
+    github: "https://github.com/zayedkhan1/CryptoX-Dashboard-application",
+    webapp: " https://crypto-x-dashboard.netlify.app/",
+   },
+   {
+    id: 4,
+    title: "StellerAI -AI Chatbot",
+    description:
+    "AI Chatbot is an intelligent virtual assistant designed to streamline communication, automate tasks, and provide instant support. Powered by advanced natural language processing, it can understand and respond to user queries in real time — whether it’s for customer service, product recommendations, or everyday conversations. ",
+    image:stellerai,
+    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
+    github: "https://github.com/zayedkhan1/StellerAi-application",
+    webapp: "https://xstellarai.netlify.app/",
+   },
+   
+   {
+    id: 5,
+    title: "Taskify -A Task Management App",
+    description:
+    "Task Manager is a simple yet powerful productivity app designed to help you stay organized and in control of your day. Create, edit, and prioritize tasks with ease, set deadlines, and track your progress — all in a clean, distraction-free interface. Whether you're managing personal goals or team projects, Task Manager keeps everything in one place, helping you boost efficiency and never miss a deadline. ",
+    image:taskify,
+    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
+    github: "https://github.com/zayedkhan1/labTaskDevider-application",
+    webapp: "https://taskifytasks.netlify.app/",
+   },
+   
 ]
